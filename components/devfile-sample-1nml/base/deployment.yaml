@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-1nml
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:JyDPM-devfile-sample-1nml
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8c2fa96e57cd7d2efecfd0668e71f82da543f4d1a246cd469196368686669134
         name: my-nodejs
         ports:
         - containerPort: 3001
